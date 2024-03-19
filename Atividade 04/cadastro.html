@@ -1,25 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Atividade 04</title>
+        <title>Cadastro</title>
     </head>
 
     <body>
+        <h1>Cadastro</h1>
+        Login:<br/>
+        <input type="text" name="login"><br/>
 
-        <h1>Formulários</h1>
-        <form action="http://191.252.62.149:8080/pweb/salvar.jsp" method="post">
-            Login:<br/>
-            <input type="text" name="login"><br/>
+        Senha:<br/>
+        <input type="password" name="senha"><br/>
 
-            Senha:<br/>
-            <input type="password" name="senha"><br/>
+        Confirme a Senha:<br/>
+        <input type="password" name="confirmaSenha"><br/>
 
-            <br/>
+        Nome:<br/>
+        <input type="text" name="nome"><br/>
 
-            <input type="button" value="Entrar">
-            <a href="cadastro.html">Cadastre-se</a>
+        Sexo:<br/>
+        <input type="radio" name="sexo">Masculino<br/>
+        <input type="radio" name="sexo">Feminino<br/>
 
-            
-        </form>
+        Email:<br/>
+        <input type="email" name="Email"><br/>
+
+        Interesses:<br/>
+        <input type="checkbox" name="interesses">Feminino<br/>
+        <input type="checkbox" name="interesses">Futebol<br/>
+        <input type="checkbox" name="interesses">Política<br/>
+        <input type="checkbox" name="interesses">Economia<br/>
+        <input type="checkbox" name="interesses">Carros<br/>
+        <input type="checkbox" name="interesses">Celebridades<br/>
+
+        Estado:</br>
+        <select name="estado">
+            <option value="distritoFederal">Distrito Federal</option>
+            <option value="goias">Goiás</option>
+            <option value="matogrosso">Mato Grosso</option>
+            <option value="alagoas">Alagoas</option>
+            <option value="bahia">Bahia</option>
+            <option value="ceara">Ceara</option>
+            <option value="maranhao">Maranhão</option>
+            <option value="paraiba">Paraíba</option>
+            <option value="pernambuco">Pernambuco</option>
+            <option value="piaui">Piauí</option>
+            <option value="riograndedonorte">Rio Grande do Norte</option>
+            <option value="sergipe">Sergipe</option>
+            <option value="acre">Acre</option>
+            <option value="amapa">Amapa</option>
+            <option value="amazonas">Amazonas</option>
+            <option value="para">Pará</option>
+            <option value="rondonia">Rondonia</option>
+            <option value="roraima">Roraima</option>
+            <option value="tocantins">Tocantins</option>
+            <option value="espiritosanto">Espirito Santo</option>
+            <option value="minasgerais">Minas Gerais</option>
+            <option value="riodejaneiro">Rio de Janeiro</option>
+            <option value="saopaulo">São Paulo</option>
+
+        </select></br>
+
+        Observações:</br>
+        <textarea name="observacoes" rows="4" cols="50"></textarea>
+        
+        <br/>
+
+        <input type="submit" value="Enviar">
+
     </body>
 </html>
