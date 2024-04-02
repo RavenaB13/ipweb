@@ -1,18 +1,18 @@
 .fonteSerif{
   font-family: "Times New Roman", Georgia, serif;
   font-size: 80px;
-  font-Style: bold, italic;
+  font-style: bold, italic;
 }
 
 .fonteSans-Serif{
   font-family: Verdana,Arial,Helvetica, sans-Serif;
   font-size: 40px;
-  font-Style: bold, italic;
+  font-style: bold, italic;
 }
 
 .fonteMonospace{
   font-family: "Courier New", Lucida, Console;
   font-size: 20px;
-  font-Style: bold, italic;
+  font-style: bold, italic;
 }
 
