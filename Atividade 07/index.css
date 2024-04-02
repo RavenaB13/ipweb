@@ -1,15 +1,15 @@
 .fonteSerif{
-  font-family: "Times New Roman";
+  font-family: "Times New Roman", Georgia, serif;
   font-size: 80px;
 }
 
 .fonteSans-Serif{
-  font-family: "Verdana";
+  font-family: Verdana,Arial,Helvetica, sans-Serif;
   font-size: 40px;
 }
 
 .fonteMonospace{
-  font-family: "Courier New";
+  font-family: "Courier New", Lucida, Console;
   font-size: 20px;
 }
 
