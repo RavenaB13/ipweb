@@ -1,4 +1,4 @@
-.noticia p{
+.noticia{
   font-family: "opensans-regular", Arnaldo, sans-serif;
   background-color: #F5F5DC;
   border: 1px solid black;
@@ -9,6 +9,7 @@
   text-align: justify;
   line-height: 24px;
   width: 500px;
+  margin: 20px;
 }
 
 .noticia h1{
