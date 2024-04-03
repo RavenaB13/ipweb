@@ -8,9 +8,13 @@
   padding-right: 10px;
   
 }
+
 .noticia h1{
   color: #c4170c;
   font-family: "Helvetica Neue", Arnaldo, sans-serif;
   padding-left: 15px;
   padding-right: 10px;
+  text-aling: justify;
+  line-height: 24px;
+  width: 500px
 }
