@@ -10,11 +10,15 @@
   line-height: 24px;
   width: 500px;
   margin: 20px;
-  float: right;
 }
 
 .noticia h1{
   color: #c4170c;
   font-family: "Helvetica Neue", Arnaldo, sans-serif;
   margin: 8px;
+}
+
+.imagem{
+  float: right;
+  width: 200px
 }
