@@ -1,4 +1,4 @@
-.noticia{
+.p{
   font-family: "opensans-regular", Arnaldo, sans-serif;
   background-color: #F5F5DC;
   border: 1px solid black;
@@ -9,7 +9,7 @@
   
 }
 
-.noticia h1{
+.h1{
   color: #c4170c;
   font-family: "Helvetica Neue", Arnaldo, sans-serif;
   padding-left: 15px;
