@@ -30,3 +30,7 @@
 .noticia p{
     clear: both;
 }
+
+body a{
+    margin: 20px;
+}
