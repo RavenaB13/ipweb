@@ -1,29 +1,32 @@
 .noticia{
-  font-family: "opensans-regular", Arnaldo, sans-serif;
-  background-color: #F5F5DC;
-  border: 1px solid black;
-  color: #333;
-  font-size: 16px;
-  padding-left: 15px;
-  padding-right: 10px;
-  text-align: justify;
-  line-height: 24px;
-  width: 500px;
-  margin: 20px;
+    font-family: "opensans-regular", Arial, sans-serif;
+    background-color: #F5F5DC;
+    border: 1 px solid black;
+    color: #333;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: justify;
+    line-height: 24px;
+    width: 400px;
+    margin: 20px;
+    float: left;
+
 }
 
 .noticia h1{
-  color: #c4170c;
-  font-family: "Helvetica Neue", Arnaldo, sans-serif;
-  margin: 8px;
+    color: #c4170c;
+    font-family: "Heveltica Neue", Arial, sans-serif;
+    margin: 8px;
 }
 
 .imagem{
-  float: left;
-  width: 200px;
-  padding: 10px;
+    float: left;
+    width: 160px;
+    height: 90px;
+    padding: 10px;
 }
 
 .noticia p{
-  clear: both;
+    clear: both;
 }
