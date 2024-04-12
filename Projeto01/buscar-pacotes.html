@@ -3,6 +3,18 @@
     <head>
         <title>JM Viagens - Página Principal</title>
         <meta charset="utf-8">
+        <style>
+            a{
+                padding: 2px;
+            }
+            
+            .formulario input[type="text"],
+            .formulario input[type="email"],
+            .formulario input[type="submit"] {
+                margin-bottom: 10px;
+            }
+        </style>
+
     </head>
 
     <body>
@@ -29,7 +41,7 @@
             </tr>
 
             <tr>
-                <td colspan="2">
+                <td colspan="2" class="formulario">
                     <h1>Buscar Pacotes de Viagem</h1>
                     Origem:<br/>
                     <input type="text" name="origem"><br/>
@@ -49,7 +61,7 @@
                     Quantidade de adultos:<br/>
                     <input type="text" name="dataRetorno"><br/>
 
-                    Quantidade de Crianlas:</br>
+                    Quantidade de Crianças:</br>
                     <input type="text" name="dataRetorno"><br/>
                     
                     <input type="submit" value="Pesquisar Pacotes"><br/>        
