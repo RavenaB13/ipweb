@@ -1,0 +1,11 @@
+.pessoa{
+    color: red;
+}
+
+.pessoa[data-idade='30']{
+    color: blue;
+}
+
+.pessoa::after{
+    content: attr(idade) '';
+}
