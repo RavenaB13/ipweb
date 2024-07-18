@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atributo data</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+
+    <script type="text/javascript">
+        function mostravalor(componente) {
+            var nome = componente.getAttribute('data-nome');
+            var idade = componente.getAttribute('data-idade');
+            var cpf = componente.getAttribute('data-cpf');
+            alert('Nome: ' + nome + '\nIdade: ' + idade + '\nCPF: ' + cpf);
+        }
+    </script>
+</head>
+<body>
+    <ul>
+        <li class="pessoa" onclick="mostravalor(this)" data-nome="Jorge" data-idade="20" data-cpf="123.123.123-45">João</li>
+        <li class="pessoa" onclick="mostravalor(this)" data-nome="Pedro" data-idade="30" data-cpf="321.321.321-54">José</li>
+        <li class="pessoa" onclick="mostravalor(this)" data-nome="Amanda" data-idade="40" data-cpf="987.987.987-65">Maria</li>
+    </ul>
+</body>
+</html>
